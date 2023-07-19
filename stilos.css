@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{
+    height: 180px;
+}
+nav{
+    height: 47px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 8px;
+}
+.links{
+    margin-right: 15px;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.links a:hover {
+    text-decoration: underline;
+  }
+.container-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+.menu{
+    width: 24px;
+    height: 24px;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+}
+.logo{
+    height: 120px;
+}
+.main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-input-container{
+    width: 560px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input-container:hover{
+    box-shadow: 0 1px 6px #2b2c2e47;
+}
+.main-input input{
+    width: 443px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.search{
+    width: 15px;
+}
+.micro{
+    width: 24px;
+    cursor: pointer;
+}
+.camara{
+    width: 20px;
+    cursor: pointer;
+}
+.buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+.buttons div{
+    display: inline-block;
+}
+.buttons button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttons button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #3c4043;
+}
+footer{
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer ul a{
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+.left{
+    justify-content: left;
+}
+.right{
+    justify-content: right;
+}
